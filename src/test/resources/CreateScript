@@ -1,0 +1,25 @@
+CREATE TABLE IF NOT EXISTS user_roles(
+	user_role_id INTEGER,
+	user_role TEXT NOT NULL,
+	PRIMARY KEY(user_role_id)
+);
+INSERT INTO user_roles(user_role_id, user_role) VALUES(1,'FINANCE MANAGER');
+INSERT INTO user_roles(user_role_id, user_role) VALUES(2,'EMPLOYEE');
+
+CREATE TABLE IF NOT EXISTS ers_users(
+	user_id SERIAL,
+	user_name TEXT NOT NULL,
+	user_password TEXT NOT NULL,
+	user_firstname TEXT NOT NULL,
+	user_lastname TEXT NOT NULL,
+	user_email TEXT NOT NULL,
+	user_role_fk INTEGER NOT NULL,
+	PRIMARY KEY(user_id),
+	FOREIGN KEY(user_role_fk) REFERENCES user_roles(user_role_id)
+);
+INSERT INTO ers_users(user_name, user_password, user_firstname, user_lastname, user_email, user_role_fk)
+VALUES ('jhndoe','shellydekiller', 'John', 'Doe', 'dekiller@shelly.com', 1);
+INSERT INTO ers_users(user_name, user_password, user_firstname, user_lastname, user_email, user_role_fk)
+VALUES ('jandoe','sheiladekiller', 'Jane', 'Doe', 'dekiller@sheila.com', 1);
+INSERT INTO ers_users(user_name, user_password, user_firstname, user_lastname, user_email, user_role_fk)
+VALUES ('qwerty','qwerty', 'Danny', 'Fenton', 'ghost@phantom.com', 1);
