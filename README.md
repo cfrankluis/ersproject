@@ -6,3 +6,10 @@
 - Finance managers are allowed to approve or deny reimbursements
 - Finance managers can see all reimbursements from all employees
 - Finance managers can filter reimbursements by status
+
+## Technologies Used
+- Java Servlets
+- HTML, CSS, JavaScript
+- Bootstrap
+- AJAX
+- JUnit
