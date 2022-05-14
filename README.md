@@ -1,11 +1,5 @@
 # Expense Reimbursement Project
-## This App enables a user to:
-- Login as an employee or a finance manager
-- Employees are allowed to submit a reimbursement
-- Employees can see their past reimbursements
-- Finance managers are allowed to approve or deny reimbursements
-- Finance managers can see all reimbursements from all employees
-- Finance managers can filter reimbursements by status
+This an expense reimbursment software that helps finance managers to track the reimbursement requests from employees.
 
 ## Technologies Used
 - Java Servlets
@@ -13,3 +7,18 @@
 - Bootstrap
 - AJAX
 - JUnit
+
+## Features
+- Login as an employee or a finance manager
+- Employees are allowed to submit a reimbursement
+- Employees can see their past reimbursements
+- Finance managers are allowed to approve or deny reimbursements
+- Finance managers can see all reimbursements from all employees
+- Finance managers can filter reimbursements by status
+
+##Getting Started
+1. a
+2. b
+##Usage
+##License
+This project was made using Spring Tool Suite Version 3.9.18
