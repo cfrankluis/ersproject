@@ -17,8 +17,10 @@ This an expense reimbursment software that helps finance managers to track the r
 - Finance managers can filter reimbursements by status
 
 ##Getting Started
+
 1. a
 2. b
+3. 
 ##Usage
 ##License
 This project was made using Spring Tool Suite Version 3.9.18
